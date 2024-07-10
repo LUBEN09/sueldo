@@ -1,0 +1,2 @@
+# sueldo
+sueldo aleatorio
