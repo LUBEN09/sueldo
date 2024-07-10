@@ -22,7 +22,7 @@ sueldo = []
 # generar un sueldo aleatorio por cada trabajador 
 def sueldo_aleatorio():
     global sueldo
-    sueldo = [random.randint(300000,2500000) ]
+    sueldo = [random.randint(300000,2500000) for _ in trabajadores  ]
     print('sueldos asignados de forma aleatoria.')
 
 
