@@ -49,8 +49,7 @@ def ver_estadistica():
     sueldo_max = max(sueldo)
     sueldo_min = min(sueldo)       
     sueldo_promedio = sum(sueldo) / len(sueldo)
-
-
+    
     print(f'sueldo mas alto : ${sueldo_max}')
     print(f'sueldo minimo: ${sueldo_min}')  
     print(f'sueldo promedio: ${sueldo_promedio:.2f}')
